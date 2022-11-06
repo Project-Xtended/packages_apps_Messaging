@@ -23,7 +23,7 @@
     android:layout_height="wrap_content"
     android:paddingTop="8dp"
     android:paddingBottom="8dp"
-    android:background="@color/contact_picker_background">
+    android:background="?android:attr/selectableItemBackground">
 
     <TextView
         style="@style/ContactListAlphabetHeader"

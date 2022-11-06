@@ -259,8 +259,6 @@ public class BugleActionBarActivity extends AppCompatActivity implements ImeUtil
 
     protected void updateActionBar(final ActionBar actionBar) {
         actionBar.setHomeAsUpIndicator(null);
-        actionBar.setBackgroundDrawable(new ColorDrawable(
-                getResources().getColor(R.color.contextual_action_bar_background_color)));
     }
 
     /**
